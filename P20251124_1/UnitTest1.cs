@@ -5,12 +5,15 @@ namespace P20251124_1
         [SetUp]
         public void Setup()
         {
+            int x = 0;
+            int y = 0;
         }
 
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            int x = 5;
+            Assert.IsNull(x);
         }
     }
 }
